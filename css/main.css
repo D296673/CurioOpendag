@@ -204,6 +204,8 @@
   
   .rooster-img img {
       width: 500px;
+      border-radius: 10px;
+      box-shadow: 5px 10px rgb(65, 63, 63);
   }
   
   textarea {
@@ -234,6 +236,24 @@
   }
   .versnellen-img img{
     width: 400px;
+  }
+  .vakkenBeschrijving{
+    grid-row-start: 4;
+    grid-row-end: 5;
+  }
+  .vakkenBeschrijving img{
+    width: 400px;
+  }
+  .imgVakken{
+    grid-row-start: 5;
+  }
+  .grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr  1fr 1fr;
+    grid-gap: 3em;
+  }
+  .teacher img{
+    width: 200px;
   }
   
   
