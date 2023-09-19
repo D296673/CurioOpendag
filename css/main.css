@@ -147,89 +147,94 @@
      ========================================================================== */
   
   
-  body {
+     body {
       font-family: Roboto;
   }
   
-  .logo {
-      font-family: 'Roboto Condensed'
-  }
-  
-  .wrapper{
+  .wrapper {
       width: 1080px;
       margin: 0 auto;
   }
-  .background{
-    background-color: #2fa3a3;
+  
+  .background {
+      background-color: #2fa3a3;
   }
-  .Icon{
-    width: 36px;
+  
+  .h1Icon {
+      display: flex;
+      justify-content: space-between;
+      align-content: center;
   }
-  .h1Icon{
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
+  
+  h1 {
+      color: #ffff;
+      font-family: 'Roboto Condensed';
   }
-  h1{
-    color: #ffff;
-    font-family:Roboto Condensed ;
+  
+  .navboss {
+      display: flex;
+      justify-content: space-between;
   }
- 
-   .navboss{
-    display: flex;
-    justify-content: space-between;
-   }
-  .heroimg{
-      background-image:url('../img/Curio-logo-1.jpg');
+  
+  .heroimg {
+      background-image: url('../img/Curio-logo-1.jpg');
       background-repeat: no-repeat;
       background-size: cover;
+  }
   
+  .background2 {
+      background-color: #2fa3a3;
+      padding-left: 90px;
+      padding-right: 90px;
+      padding-top: 10px;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+  }
   
-     }
-  .background2{
-    background-color:#2fa3a3 ;
-    padding-left: 90px;
-    padding-right: 90px;
-    padding-top: 10px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    }
-    .background3{
-    background-color:#2fa3a3;
-    padding-left: 90px;
-    padding-right: 90px;
-    padding-top: 10px;
-    }
-    .space{
+  .background3 {
+      background-color: #2fa3a3;
+      padding-left: 90px;
+      padding-right: 90px;
+      padding-top: 10px;
+  }
+  
+  .space {
       padding-top: 600px;
-  
-    }
-  
-  
-  
-  
-  
-  textarea{
-    width: 900px;
-    border: none;
-    margin: 10px;
-  }
-  .backgroundcolor{
-    background-color: #641f77;
   }
   
-  
-  .aboutus{
-    color: #ffff;
-  }
-  .grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-  .rooster-text{
-    border: #641f77 2px;
+  .rooster-img img {
+      width: 500px;
   }
   
+  textarea {
+      width: 900px;
+      border: none;
+      margin: 10px;
+  }
+  
+  .backgroundcolor {
+      background-color: #641f77;
+  }
+  
+  .aboutus {
+      color: #ffff;
+  }
+  
+  .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 3em;
+  }
+  
+  .rooster-text {
+      border: #641f77 2px;
+  }
+  .blokken-img img{
+    width: 400px;
+  }
+  .versnellen-img img{
+    width: 400px;
+  }
   
   
   
